@@ -1,0 +1,7 @@
+#!/bin/bash
+
+mvn package
+
+gvfs-mount -a sftp://10.0.1.1:33334
+
+rsync --info=progress2 ./target/*.jar /run/user/1000/gvfs/sftp:host=10.0.1.1,port=33334/home/test/javaServer/KURSACH/server.jar

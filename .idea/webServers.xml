@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8b219dea-9d1f-4c9a-afa2-4ea59cd3d7ee" name="KURSACH_VPN" url="http://95.165.172.150:8080">
+        <fileTransfer host="10.0.1.1" port="33334" rootFolder="/home/test/javaServer/KURSACH/src" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="33334" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0eba5a03-659d-4781-8bd1-6e34b099e075" name="KURSACH_HOME" url="http://95.165.172.150:8080">
+        <fileTransfer host="192.168.1.35" port="33334" rootFolder="/home/test/javaServer/KURSACH/src" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="33334" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
